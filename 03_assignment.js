@@ -8,8 +8,8 @@ gretestno(800,899);
 
 // var gretestno = function(num1,num2){
 //     var res = num1>num2 ? num1 : num2;
-//     // console.log(`The Gretest No Amongst "${gretestno}" is`,res);
-//     // return res;
+//     console.log(`The Gretest No Amongst "${gretestno}" is`,res);
+//     return res;
 // }
 // var result = gretestno(10,-10);
 // console.log(result);
