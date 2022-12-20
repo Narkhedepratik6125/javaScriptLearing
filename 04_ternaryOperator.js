@@ -25,7 +25,7 @@ var resultPassOrFail= sscMarks>=35 ? "Pass"  : "Fail";
         : (sscMarks>35 ? "Pass" : "Fail"); 
     return resultPassOrFail;
  }
-
+ console.log(`Result is 0  ${sscResult(0)}`);
 console.log(`Result is 23  ${sscResult(23)}`);// Valid Value
 console.log(`Result is 45  ${sscResult(45)}`);// Valid Value
 console.log(`Result is 65  ${sscResult(65)}`);// Valid Value

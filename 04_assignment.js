@@ -10,23 +10,23 @@ tcsEligibility(60,79,88,"Ankita");
 
 console.log(`-----------------------------------------------------------------------\n`);
 
-var Result = (0 =='');
+var Result = (0 =='')? true:false ;
 console.log(`"(0 =='')" is ${Result}`);
 
-var Result = (0=='0');
+var Result = (0=='0')? true:false;
 console.log(`"(0 =='0')" is ${Result}`);
 
-var Result = (0==false);
+var Result = (0==false)? true:false;
 console.log(`"(0 =='false')" is ${Result}`);
 
-var Result = (null==undefined);
+var Result = (null==undefined)? true:false;
 console.log(`"(null==undefined)" is ${Result}`);
 
-var Result = (1==[1]);
+var Result = (1==[1])? true:false;
 console.log(`"(1==[1])" is ${Result}`);
 
-var Result = (1==true);
+var Result = (1==true)? true:false;
 console.log(`"(1==true)" is ${Result}`);
 
-var Result = (1=='1');
+var Result = (1=='1')? true:false;
 console.log(`"(1=='1')" is ${Result}`);
